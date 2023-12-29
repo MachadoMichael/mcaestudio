@@ -1,23 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import { getAllFileUrls } from './firebase/storage';
+import SwiperCarousel from './components/swiper';
+import { Navbar } from './components/navbar';
 
 function App() {
+  const [fileUrls, setFileUrls] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const folderPath = 'path/to/your/files'; // Change this to the actual path in your storage
+        const urls = await getAllFileUrls(folderPath);
+        setFileUrls(urls);
+      } catch (error) {
+        console.error('Error getting file URLs:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <div className='home-body'>
+        <SwiperCarousel photos={fileUrls} />
+      </div>
     </div>
   );
 }

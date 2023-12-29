@@ -1,0 +1,38 @@
+.nav-container{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 8vh;
+  background-color: #000;
+}
+
+.logo-box{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo{
+  height: 60%;
+}
+
+.nav-box-margin{
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+  list-style: none;
+}
+
+li {
+  margin: 2%;
+}

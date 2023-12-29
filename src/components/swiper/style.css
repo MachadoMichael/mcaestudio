@@ -1,0 +1,17 @@
+.container {
+  background-color: #121212;
+  -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.75);
+  box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.75);
+  width: 80vw;
+  height: 70vh;
+}
+
+.img-box{
+  height: 70vh;
+}
+
+.photo-img{
+  height: 100%;
+  object-fit: contain;
+}
