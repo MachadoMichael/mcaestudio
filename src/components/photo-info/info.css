@@ -1,0 +1,9 @@
+.info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 80%;
+  color: #fff;
+}
+

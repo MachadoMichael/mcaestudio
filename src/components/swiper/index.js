@@ -1,7 +1,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './style.css'
-
+import { ScrollBar } from 'swiper/modules'
 // Import Swiper styles
 import 'swiper/css';
 
@@ -9,6 +9,8 @@ const SwiperCarousel = ({ photos }) => {
   return (
     <div className='container'>
       <Swiper
+        scrollbar={{ hide: true }}
+        module={[ScrollBar]}
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={() => console.log('slide change')}
