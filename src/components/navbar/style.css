@@ -18,6 +18,10 @@
   height: 60%;
 }
 
+.logo:hover{
+  cursor: pointer;
+}
+
 .nav-box-margin{
   width: 80vw;
   display: flex;
@@ -35,4 +39,8 @@ ul {
 
 li {
   margin: 2%;
+}
+
+li:hover{
+  cursor: pointer;
 }
