@@ -25,11 +25,12 @@ align-items: center;
   color: #fff;
 }
 
-h1{
-  
-}
-
 p{
   text-align: justify;
-  font-size: 16px;
+  font-size: 18px;
+  margin-bottom: 0;
+}
+
+#about-writer{
+  font-size: 20px;
 }

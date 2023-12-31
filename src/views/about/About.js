@@ -9,7 +9,6 @@ export const About = () => {
       <div className="about-text-box">
         <h1> As imagens podem ser tudo, nunca só registro.</h1>
         <div className="about-text">
-
           <p>
             A lente mira para a intimidade de uma vida, para um espaço pensado para confraternizar existências. Ou mesmo para a arquitetura que exibe o tempo na sua estrutura imponente para ser avistada de pontos da urbe.
           </p>
