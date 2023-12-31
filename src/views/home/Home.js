@@ -8,21 +8,21 @@ import './Home.css'
 
 export const Home = () => {
   const [fileUrls, setFileUrls] = useState([]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const folderPath = 'path/to/your/files'; // Change this to the actual path in your storage
-        const urls = await getAllFileUrls(folderPath);
-        setFileUrls(urls);
-      } catch (error) {
-        console.error('Error getting file URLs:', error);
-      }
-    };
-
-    fetchData();
-  }, []);
-
+  //
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     try {
+  //       const folderPath = 'path/to/your/files'; // Change this to the actual path in your storage
+  //       const urls = await getAllFileUrls(folderPath);
+  //       setFileUrls(urls);
+  //     } catch (error) {
+  //       console.error('Error getting file URLs:', error);
+  //     }
+  //   };
+  //
+  //   fetchData();
+  // }, []);
+  //
   return (
     <div className="Home">
       <Navbar />

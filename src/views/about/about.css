@@ -1,0 +1,35 @@
+.about-container{
+  width: 100vw;
+  height: 100vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+.about-content {
+  display: flex;
+  width: 80%;
+  height: 100%;
+}
+
+.about-image {
+  width: 50%;
+}
+
+.about-text-box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+}
+
+h1{
+  
+}
+
+p{
+  text-align: justify;
+  font-size: 16px;
+}
