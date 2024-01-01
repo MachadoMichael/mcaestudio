@@ -7,6 +7,7 @@ import TextField from '@mui/material/TextField';
 import Alert from '@mui/material/Alert';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
+import { addPhotoToFirestore } from "../../firebase/firebaseApp";
 
 export const PhotoSender = () => {
   const [imageFile, setImageFile] = useState();
@@ -17,16 +18,18 @@ export const PhotoSender = () => {
   const [company, setCompany] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
-  const handleImageChange = (event) => {
-    setImageFile(getBase64(event.target.files[0]));
+  const handleImageChange = async (event) => {
+    const newPhoto = await getBase64(event.target.files[0])
+    if (newPhoto !== null && newPhoto !== undefined) await setImageFile(newPhoto);
   };
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
     if (!imageFile || !altText || !position || !architect || !place || !company) {
       setErrorMessage("Todos os campos precisam estar preenchidos.")
     }
     const photoData = PhotoConstructor(imageFile, altText, position, architect, place, company)
+    await addPhotoToFirestore(photoData);
     // Here you can handle the form submission, e.g., send data to the server
   };
 

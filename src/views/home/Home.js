@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { getAllFileUrls } from '../../firebase/storage';
+import { getAllFileUrls } from '../../firebase/firebaseApp';
 import SwiperCarousel from '../../components/swiper';
 import { Navbar } from '../../components/navbar';
 import { Info } from '../../components/photo-info/info';
