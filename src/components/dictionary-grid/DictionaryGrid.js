@@ -14,7 +14,8 @@ export const DictionaryGrid = ({ dictionaries, selectDictionary, deleteDictionar
           <CardMedia
             component="img"
             height="140"
-            image={`data:image/png;base64,${dict.img}`}
+            // image={`data:image/png;base64,${dict.img}`}
+            image={dict.img}
             alt={dict.alt}
           />
           <CardContent>

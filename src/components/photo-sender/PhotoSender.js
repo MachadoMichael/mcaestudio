@@ -29,6 +29,7 @@ export const PhotoSender = () => {
       setErrorMessage("Todos os campos precisam estar preenchidos.")
     }
     const photoData = PhotoConstructor(imageFile, altText, position, architect, place, company)
+    console.log('payload', photoData)
     await addPhotoToFirestore(photoData);
     // Here you can handle the form submission, e.g., send data to the server
   };
