@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 80%;
+  width: 100%;
   color: #fff;
+  margin-bottom: 3%;
 }
 

@@ -31,16 +31,15 @@
 ul {
   color: #fff;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
-  width: 30%;
+  width: 12%;
   list-style: none;
 }
 
-li {
-  margin: 2%;
-}
 
 li:hover{
   cursor: pointer;
+  text-decoration: overline;
+  font-size: 1.1em;
 }

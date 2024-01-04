@@ -5,8 +5,11 @@ import './style.css'
 import 'swiper/css';
 import 'swiper/css/scrollbar'
 import { Autoplay, Scrollbar } from 'swiper/modules'
+import { Info } from '../photo-info/info';
+
 
 const SwiperCarousel = ({ photos }) => {
+  console.log(photos)
   return (
     <div className='container'>
       <Swiper
@@ -16,12 +19,15 @@ const SwiperCarousel = ({ photos }) => {
         slidesPerView={1}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
-        autoplay={{ delay: 1000, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, pauseOnMouseEnter: true }}
       >
         {
           photos.map((photo, i) => <SwiperSlide key={i}>
             <div className='img-box'>
-              <img className='photo-img' src={photo} alt={'photoname' + i} />
+              <img className='photo-img' src={photo.img} alt={photo.alt} />
+            </div>
+            <div className='info-box'>
+              <Info client={photo.architect} company={photo.company} localization={photo.place} />
             </div>
           </SwiperSlide>)
         }

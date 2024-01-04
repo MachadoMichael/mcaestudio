@@ -1,6 +1,18 @@
+import photo1 from '../photos/photo1.jpg'
+import photo2 from '../photos/photo2.jpg'
+import photo3 from '../photos/photo3.jpg'
+import photo4 from '../photos/photo4.jpg'
+import photo5 from '../photos/photo5.jpg'
+import photo6 from '../photos/photo6.jpg'
+import photo7 from '../photos/photo7.jpg'
+import photo8 from '../photos/photo8.jpg'
+import photo9 from '../photos/photo9.jpg'
+import photo10 from '../photos/photo10.jpg'
+
+
 export const fakeDictionaries = [
   {
-    img: "funny-image1.jpg",
+    img: photo1,
     alt: "Hilarious Skyscraper",
     position: 1,
     architect: "Chuck Wobbleton",
@@ -8,7 +20,7 @@ export const fakeDictionaries = [
     company: "Giggle Designs Inc.",
   },
   {
-    img: "funny-image2.jpg",
+    img: photo2,
     alt: "Laughing Tower",
     position: 2,
     architect: "Joy Jester",
@@ -16,7 +28,7 @@ export const fakeDictionaries = [
     company: "Mirthful Constructions",
   },
   {
-    img: "funny-image3.jpg",
+    img: photo3,
     alt: "Giggly Mansion",
     position: 3,
     architect: "Jocular Johnson",
@@ -24,7 +36,7 @@ export const fakeDictionaries = [
     company: "Guffaw Builders Ltd.",
   },
   {
-    img: "funny-image4.jpg",
+    img: photo4,
     alt: "Whoopee Pavilion",
     position: 4,
     architect: "Snicker Smith",
@@ -32,7 +44,7 @@ export const fakeDictionaries = [
     company: "Funny Structures Co.",
   },
   {
-    img: "funny-image5.jpg",
+    img: photo5,
     alt: "Amusing Skyscraper",
     position: 5,
     architect: "Ha Ha Howard",
@@ -40,7 +52,7 @@ export const fakeDictionaries = [
     company: "Comedy Architects",
   },
   {
-    img: "funny-image6.jpg",
+    img: photo6,
     alt: "Silly Tower",
     position: 6,
     architect: "Guffaw Greene",
@@ -48,15 +60,15 @@ export const fakeDictionaries = [
     company: "Hilarity Constructors",
   },
   {
-    img: "funny-image7.jpg",
-    alt: "Chuckle Mansion",
+    img: photo7,
+    alt: "Chucklle Mansion",
     position: 7,
     architect: "Jestin Jestington",
     place: "Laughing Estates",
     company: "Whoopee Designs LLC",
   },
   {
-    img: "funny-image8.jpg",
+    img: photo8,
     alt: "Grin Pavilion",
     position: 8,
     architect: "Giggle Giggleson",
@@ -64,7 +76,7 @@ export const fakeDictionaries = [
     company: "Glee Construction",
   },
   {
-    img: "funny-image9.jpg",
+    img: photo9,
     alt: "Whimsical Skyscraper",
     position: 9,
     architect: "Merry Merrison",
@@ -72,7 +84,7 @@ export const fakeDictionaries = [
     company: "Jovial Builders Inc.",
   },
   {
-    img: "funny-image10.jpg",
+    img: photo10,
     alt: "Guffaw Tower",
     position: 10,
     architect: "Laughington Laughsalot",
