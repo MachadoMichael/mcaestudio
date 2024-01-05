@@ -1,4 +1,6 @@
 .nav-container{
+  position: fixed;
+  top: 0;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -42,4 +44,12 @@ li:hover{
   cursor: pointer;
   text-decoration: overline;
   font-size: 1.1em;
+}
+
+
+@media(max-width: 1000px){
+
+  ul{
+    flex-direction: column;
+  }
 }

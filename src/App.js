@@ -4,6 +4,7 @@ import { Home } from './views/home/Home';
 import { About } from './views/about/About';
 import { Contact } from './views/contact/Contact';
 import { Admin } from './views/admin/Admin';
+import { Navbar } from './components/navbar';
 
 function App() {
   return (
