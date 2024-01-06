@@ -46,8 +46,22 @@ li:hover{
   font-size: 1.1em;
 }
 
-
 @media(max-width: 1000px){
+  .nav-container{
+    display: none;
+  }
+
+  ul{
+    width: 18%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+} 
+
+@media(max-width: 500px){
+  .nav-container{
+    display: flex;
+  }
 
   ul{
     flex-direction: column;

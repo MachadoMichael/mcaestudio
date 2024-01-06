@@ -1,4 +1,4 @@
-.container {
+.container-swiper {
   background-color: #121212;
   -webkit-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 1px 5px 4px rgba(0,0,0,0.75);
@@ -21,4 +21,22 @@
   justify-content: center;
   width: 100%;
   margin-top: 1%;
+}
+
+@media(max-width: 500px){
+  .photo-img{
+    width: 100%;
+  }
+}
+
+
+@media(max-width: 1000px){
+  .container-swiper{
+    width: 90vw;
+    height: 80vh;
+  }
+
+  .img-box{
+    height: 80vh;
+  }
 }
