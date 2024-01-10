@@ -1,7 +1,7 @@
 import SwiperCarousel from '../../components/swiper';
 import { Navbar } from '../../components/navbar';
 import './Home.css'
-import { fakeDictionaries } from '../../fake-data/fakeDictionaries';
+import { Dictionaries } from '../../data/Dictionaries';
 
 
 export const Home = () => {
@@ -9,7 +9,7 @@ export const Home = () => {
     <div className="Home">
       <Navbar />
       <div className='home-body'>
-        <SwiperCarousel photos={fakeDictionaries} />
+        <SwiperCarousel photos={Dictionaries} />
       </div>
     </div>
   );

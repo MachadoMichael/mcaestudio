@@ -47,9 +47,10 @@ import photo46 from '../photos/photo46.jpg'
 import photo47 from '../photos/photo47.jpg'
 import photo48 from '../photos/photo48.jpg'
 import photo49 from '../photos/photo49.jpg'
-import photo50 from '../photos/photo50.jpg'
+import photo51 from '../photos/photo51.jpg'
+import photo52 from '../photos/photo52.jpg'
 
-export const fakeDictionaries = [
+export const Dictionaries = [
   {
     img: photo1,
     alt: "Hilarious Skyscraper",
@@ -443,12 +444,21 @@ export const fakeDictionaries = [
     company: "Jovial Builders Inc.",
   },
   {
-    img: photo50,
+    img: photo51,
     alt: "Guffaw Tower",
     position: 10,
     architect: "Laughington Laughsalot",
     place: "Giggleville",
     company: "Hilarious Structures Ltd.",
   },
+  {
+    img: photo52,
+    alt: "Guffaw Tower",
+    position: 10,
+    architect: "Laughington Laughsalot",
+    place: "Giggleville",
+    company: "Hilarious Structures Ltd.",
+  },
+
 ];
 
