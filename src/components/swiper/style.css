@@ -29,16 +29,40 @@
   .photo-img{
     width: 100%;
   }
+
+  .container-swiper{
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .img-box{
+    /* height: 100vh; */
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
 }
 
 
 @media(max-width: 1000px){
   .container-swiper{
-    width: 90vw;
-    height: 80vh;
+    width: 95vw;
+    height: 90vh;
+  }
+
+  .photo-img{
+    object-fit: contain;
   }
 
   .img-box{
-    height: 80vh;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
   }
 }
