@@ -9,7 +9,6 @@ import { Info } from '../photo-info/info';
 
 
 const SwiperCarousel = ({ photos }) => {
-  console.log(photos)
   return (
     <div className='container-swiper'>
       <Swiper
