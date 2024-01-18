@@ -1,3 +1,16 @@
 #contact-container{
   background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-content{
+width: 80vw;
+background-color: red;
+}
+
+.contact-photo{
+  object-fit: contain;
+  height: 80vh;
 }

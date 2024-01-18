@@ -1,7 +1,13 @@
+@font-face{
+  font-family: 'Cera';
+  src: url('../src/utils/Cera-Pro/Demo_Fonts/Fontspring-DEMO-cerapro-regular.otf') format('opentype')
+}
+
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Cera', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,6 +16,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Cera', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

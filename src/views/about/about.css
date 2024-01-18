@@ -15,15 +15,29 @@ align-items: center;
 }
 
 .about-image {
-  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 45%;
+  height: 80vh;
+}
+
+.about-photo{
+  height: 60%;
+  object-fit: contain;
 }
 
 .about-text-box {
-  width: 50%;
+  width: 55%;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   color: #fff;
+}
+
+h1{
+  margin-top: 0;
 }
 
 p{
@@ -33,6 +47,7 @@ p{
 }
 
 #about-writer{
+  margin-top: 5%;
   font-size: 20px;
 }
 
