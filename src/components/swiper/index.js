@@ -18,7 +18,7 @@ const SwiperCarousel = ({ photos }) => {
         slidesPerView={1}
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
-        autoplay={{ delay: 3000, pauseOnMouseEnter: true }}
+        autoplay={{ delay: 4000, pauseOnMouseEnter: true }}
       >
         {
           photos.map((photo, i) => <SwiperSlide key={i}>
