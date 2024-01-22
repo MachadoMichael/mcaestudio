@@ -1,12 +1,15 @@
 import './about.css'
 import { Navbar } from "../../components/navbar"
 import aboutImage from "../../photos/about.webp"
+import { Info } from "../../components/photo-info/info.js"
+
 export const About = () => {
   return <div className="about-container">
     <Navbar />
     <section className="about-content">
       <div className="about-image">
         <img className='about-photo' src={aboutImage} />
+        <Info client={"client"} company={"company"} localization={"place"} />
       </div>
       <div className="about-text-box">
         <h1> As imagens podem ser tudo, nunca só registro.</h1>

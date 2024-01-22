@@ -3,14 +3,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
 }
 
 .contact-content{
 width: 80vw;
+height: 100vh;
 background-color: red;
+display: flex;
+justify-content: center;
+
 }
 
 .contact-photo{
   object-fit: contain;
-  height: 80vh;
+  height: 60vh;
 }

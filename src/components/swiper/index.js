@@ -24,9 +24,9 @@ const SwiperCarousel = ({ photos }) => {
           photos.map((photo, i) => <SwiperSlide key={i}>
             <div className='img-box'>
               <img className='photo-img' src={photo.img} alt={photo.alt} />
+              <Info client={photo.architect} company={photo.company} localization={photo.place} />
             </div>
             <div className='info-box'>
-              <Info client={photo.architect} company={photo.company} localization={photo.place} />
             </div>
           </SwiperSlide>)
         }
