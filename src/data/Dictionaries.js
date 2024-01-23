@@ -51,6 +51,18 @@ import photo48 from '../photos/photo48.webp'
 import photo49 from '../photos/photo49.webp'
 import photo51 from '../photos/photo51.webp'
 import photo52 from '../photos/photo52.webp'
+import photo54 from '../photos/photo54.webp'
+import photo55 from '../photos/photo55.webp'
+import photo56 from '../photos/photo56.webp'
+import photo57 from '../photos/photo57.webp'
+import photo58 from '../photos/photo58.webp'
+import photo59 from '../photos/photo59.webp'
+import photo60 from '../photos/photo60.webp'
+import photo61 from '../photos/photo61.webp'
+import photo62 from '../photos/photo62.webp'
+import photo63 from '../photos/photo63.webp'
+import photo64 from '../photos/photo64.webp'
+import photo99 from '../photos/photo99.jpeg'
 
 export const Dictionaries = [
   {
@@ -200,7 +212,15 @@ export const Dictionaries = [
   {
     img: photo19,
     alt: "Whimsical Skyscraper",
-    position: 9,
+    position: 19,
+    architect: "Merry Merrison",
+    place: "Chortle City",
+    company: "Jovial Builders Inc.",
+  },
+  {
+    img: photo54,
+    alt: "Whimsical Skyscraper",
+    position: 20,
     architect: "Merry Merrison",
     place: "Chortle City",
     company: "Jovial Builders Inc.",
@@ -262,7 +282,23 @@ export const Dictionaries = [
     company: "Hilarity Constructors",
   },
   {
+    img: photo64,
+    alt: "Silly Tower",
+    position: 6,
+    architect: "Guffaw Greene",
+    place: "Lighthearted City",
+    company: "Hilarity Constructors",
+  },
+  {
     img: photo27,
+    alt: "Chucklle Mansion",
+    position: 7,
+    architect: "Jestin Jestington",
+    place: "Laughing Estates",
+    company: "Whoopee Designs LLC",
+  },
+  {
+    img: photo58,
     alt: "Chucklle Mansion",
     position: 7,
     architect: "Jestin Jestington",
@@ -278,7 +314,23 @@ export const Dictionaries = [
     company: "Glee Construction",
   },
   {
+    img: photo55,
+    alt: "Grin Pavilion",
+    position: 8,
+    architect: "Giggle Giggleson",
+    place: "Snicker Town",
+    company: "Glee Construction",
+  },
+  {
     img: photo29,
+    alt: "Whimsical Skyscraper",
+    position: 9,
+    architect: "Merry Merrison",
+    place: "Chortle City",
+    company: "Jovial Builders Inc.",
+  },
+  {
+    img: photo56,
     alt: "Whimsical Skyscraper",
     position: 9,
     architect: "Merry Merrison",
@@ -406,6 +458,14 @@ export const Dictionaries = [
     company: "Funny Structures Co.",
   },
   {
+    img: photo63,
+    alt: "Whoopee Pavilion",
+    position: 4,
+    architect: "Snicker Smith",
+    place: "Chuckleville",
+    company: "Funny Structures Co.",
+  },
+  {
     img: photo45,
     alt: "Amusing Skyscraper",
     position: 5,
@@ -423,6 +483,14 @@ export const Dictionaries = [
   },
   {
     img: photo47,
+    alt: "Chucklle Mansion",
+    position: 7,
+    architect: "Jestin Jestington",
+    place: "Laughing Estates",
+    company: "Whoopee Designs LLC",
+  },
+  {
+    img: photo99,
     alt: "Chucklle Mansion",
     position: 7,
     architect: "Jestin Jestington",
@@ -453,6 +521,50 @@ export const Dictionaries = [
     place: "Giggleville",
     company: "Hilarious Structures Ltd.",
   },
+  {
+    img: photo60,
+    alt: "Guffaw Tower",
+    position: 10,
+    architect: "Laughington Laughsalot",
+    place: "Giggleville",
+    company: "Hilarious Structures Ltd.",
+  },
+
+  {
+    img: photo59,
+    alt: "Guffaw Tower",
+    position: 10,
+    architect: "Laughington Laughsalot",
+    place: "Giggleville",
+    company: "Hilarious Structures Ltd.",
+  },
+  {
+
+    img: photo62,
+    alt: "Guffaw Tower",
+    position: 10,
+    architect: "Laughington Laughsalot",
+    place: "Giggleville",
+    company: "Hilarious Structures Ltd.",
+  },
+
+  {
+    img: photo61,
+    alt: "Guffaw Tower",
+    position: 10,
+    architect: "Laughington Laughsalot",
+    place: "Giggleville",
+    company: "Hilarious Structures Ltd.",
+  },
+  {
+    img: photo57,
+    alt: "Guffaw Tower",
+    position: 10,
+    architect: "Laughington Laughsalot",
+    place: "Giggleville",
+    company: "Hilarious Structures Ltd.",
+  },
+
   {
     img: photo52,
     alt: "Guffaw Tower",
