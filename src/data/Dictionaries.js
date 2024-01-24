@@ -61,13 +61,14 @@ import photo62 from '../photos/photo62.webp'
 import photo63 from '../photos/photo63.webp'
 import photo64 from '../photos/photo64.webp'
 import photo99 from '../photos/photo99.jpeg'
+import photo65 from '../photos/photo65.webp'
 
 export const Dictionaries = [
   {
     img: photo1,
     alt: "Hilarious Skyscraper",
     position: 1,
-    architect: "Intown arquitetura",
+    architect: "Intown Arquitetura",
     place: "Rio de Janeiro",
     company: "Paraty",
   },
@@ -76,7 +77,7 @@ export const Dictionaries = [
     alt: "BC Arquitetos",
     position: 2,
     architect: "BC Arquitetos",
-    place: "Rio de Janeiro",
+    place: "São Paulo",
     company: "Cascais",
   },
   {
@@ -108,7 +109,7 @@ export const Dictionaries = [
     alt: "Silly Tower",
     position: 6,
     architect: "BC Arquitetos",
-    place: "Rio de Janeiro",
+    place: "São Paulo",
     company: "São Paulo",
   },
   {
@@ -171,7 +172,7 @@ export const Dictionaries = [
     img: photo14,
     alt: "Whoopee Pavilion",
     position: 4,
-    architect: "Intown arquitetura",
+    architect: "Intown Arquitetura",
     place: "Rio de Janeiro",
     company: "Areal",
   },
@@ -195,7 +196,7 @@ export const Dictionaries = [
     img: photo17,
     alt: "Chucklle Mansion",
     position: 7,
-    architect: "Miu miu",
+    architect: "Miu Miu",
     place: "Milano",
     company: "Rio de Janeiro",
   },
@@ -299,8 +300,16 @@ export const Dictionaries = [
     img: photo58,
     alt: "Chucklle Mansion",
     position: 7,
-    architect: "Da Hora arquitetura",
+    architect: "Da Hora Arquitetura",
     place: "Rio de Janeiro",
+    company: "Rio de Janeiro",
+  },
+  {
+    img: photo65,
+    alt: "Chucklle Mansion",
+    position: 7,
+    architect: "PKB Arquitetura",
+    place: "Niterói",
     company: "Rio de Janeiro",
   },
   {
@@ -363,7 +372,7 @@ export const Dictionaries = [
     img: photo33,
     alt: "Giggly Mansion",
     position: 3,
-    architect: "Hotel Janeiro + Azul arquiteura",
+    architect: "Hotel Janeiro + Azul Arquiteura",
     place: "Rio de Janeiro",
     company: "",
   },
@@ -379,7 +388,7 @@ export const Dictionaries = [
     img: photo35,
     alt: "Amusing Skyscraper",
     position: 5,
-    architect: "Migs arquitetura",
+    architect: "Migs Arquitetura",
     place: "Rio de Janeiro",
     company: "Rio de Janeiro",
   },
@@ -557,8 +566,8 @@ export const Dictionaries = [
     alt: "Guffaw Tower",
     position: 10,
     architect: "Jacobsen Arquitetura",
-    place: "Giggleville",
-    company: "Rio de Janeiro",
+    place: "Rio de Janeiro",
+    company: "Itaipava",
   },
   {
     img: photo52,

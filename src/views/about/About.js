@@ -37,6 +37,7 @@ export const About = () => {
           </p>
         </div>
         <div id='about-writer'>Lu de Moraes</div>
+        <a id="writer-contact" href='https://instagram.com/acasaacom'>@acasaacom</a>
       </div>
     </section>
   </div>

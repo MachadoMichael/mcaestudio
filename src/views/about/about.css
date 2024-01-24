@@ -53,6 +53,11 @@ p{
   font-size: 20px;
 }
 
+#writer-contact{
+  text-decoration: none;
+  color: #fff;
+}
+
 @media(max-width: 500px){
 
   .about-image{
