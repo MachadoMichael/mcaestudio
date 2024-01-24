@@ -8,8 +8,8 @@ export const Contact = () => {
   return <section id='contact-container'>
     <Navbar />
     <div id='contact-content'>
-      <img className='contact-photo' src={contactPhoto} alt={"alt of image"} />
-      <Info client={"contact"} company={"company"} localization={"place"} />
+      <img className='contact-photo' src={contactPhoto} alt="contact" />
+      <Info client={"Paula Neder"} company={"Rio de Janeiro"} localization={"São Paulo"} />
     </div>
     <div id='contact-buttons'>
       <SocialButtons />

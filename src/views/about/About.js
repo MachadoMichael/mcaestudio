@@ -8,8 +8,8 @@ export const About = () => {
     <Navbar />
     <section className="about-content">
       <div className="about-image">
-        <img className='about-photo' src={aboutImage} />
-        <Info client={"client"} company={"company"} localization={"place"} />
+        <img className='about-photo' src={aboutImage} alt="about" />
+        <Info client={"Florense"} company={"Flores da Cunha"} localization={"São Paulo"} />
       </div>
       <div className="about-text-box">
         <h1> As imagens podem ser tudo, nunca só registro.</h1>
