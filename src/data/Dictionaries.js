@@ -60,7 +60,7 @@ import photo61 from '../photos/photo61.webp'
 import photo62 from '../photos/photo62.webp'
 import photo63 from '../photos/photo63.webp'
 import photo64 from '../photos/photo64.webp'
-import photo99 from '../photos/photo99.jpeg'
+import photo99 from '../photos/photo99.webp'
 import photo65 from '../photos/photo65.webp'
 
 export const Dictionaries = [

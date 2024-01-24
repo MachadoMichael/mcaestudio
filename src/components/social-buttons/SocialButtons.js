@@ -11,7 +11,7 @@ export const SocialButtons = () => {
     <IconButton href="https://instagram.com/mca_estudio" sx={{ color: '#fff', '&:hover': { color: 'darkpurple' } }}>
       <InstagramIcon sx={{ fontSize: 32 }} />
     </IconButton>
-    <IconButton href="mailto:youremail@example.com" sx={{ color: '#fff', '&:hover': { color: 'darkred' } }}>
+    <IconButton href="mailto:estudio@mcaestudio.com.br" sx={{ color: '#fff', '&:hover': { color: 'darkred' } }}>
       <MailOutlineIcon sx={{ fontSize: 32 }} />
     </IconButton>
   </div>
