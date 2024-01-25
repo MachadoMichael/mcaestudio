@@ -2,13 +2,14 @@ import './about.css'
 import { Navbar } from "../../components/navbar"
 import aboutImage from "../../photos/about.webp"
 import { Info } from "../../components/photo-info/info.js"
+import { LazyLoadImage } from 'react-lazy-load-image-component'
 
 export const About = () => {
   return <div className="about-container">
     <Navbar />
     <section className="about-content">
       <div className="about-image">
-        <img className='about-photo' src={aboutImage} alt="about" />
+        <LazyLoadImage className='about-photo' src={aboutImage} alt="about" />
         <Info client={"Florense"} company={"Flores da Cunha"} localization={"São Paulo"} />
       </div>
       <div className="about-text-box">

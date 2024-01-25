@@ -24,7 +24,19 @@
   /* margin-top: 1%; */
 }
 
+.blur-effect{
+  filter: blur(8px);
+  transition: filter 0.3 ease-out;
+}
 
+.blur-effect.loaded {
+  filter: none;
+}
+
+.fade-in-image {
+ opacity: 0;
+ transition: opacity 1s ease-in-out; /* Adjust the duration as needed */
+}
 
 @media(max-width: 1000px){
   .container-swiper{
