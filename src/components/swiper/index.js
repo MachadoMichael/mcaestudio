@@ -4,25 +4,28 @@ import './style.css'
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/scrollbar'
-import { Autoplay, EffectFade, Pagination } from 'swiper/modules'
+import { Autoplay, EffectFade } from 'swiper/modules'
 import { Info } from '../photo-info/info';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'swiper/css/effect-fade'
 
+
 const SwiperCarousel = ({ photos }) => {
+
+  let swiperInstance = null;
   return (
     <div className='container-swiper'>
       <Swiper
-        modules={[Autoplay, EffectFade, Pagination]}
-        scrollbar={{ draggable: true }}
+        modules={[Autoplay, EffectFade]}
         pagination={{ clickable: true }}
         effect='fade'
         fadeEffect={{ crossFade: true }}
         spaceBetween={50}
         slidesPerView={1}
         onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSwiper={(swiper) => swiperInstance = swiper}
         autoplay={{ delay: 4500, pauseOnMouseEnter: true }}
+        speed={1300}
       >
         {
           photos.map((photo, i) => <SwiperSlide key={i}>
@@ -31,6 +34,12 @@ const SwiperCarousel = ({ photos }) => {
                 className='photo-img'
                 src={photo.img}
                 alt={photo.alt}
+                onLoad={(e) => {
+                  e.target.style.opacity = '1';
+                  if (i === 0 && swiperInstance) {
+                    swiperInstance.autoplay.start();
+                  }
+                }}
               />
               <Info client={photo.architect} company={photo.company} localization={photo.place} />
             </div>
