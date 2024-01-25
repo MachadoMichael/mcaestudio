@@ -405,7 +405,7 @@ export const Dictionaries = [
     alt: "Chucklle Mansion",
     position: 7,
     architect: "BC Arquitetos",
-    place: "Rio de Janeiro",
+    place: "São Paulo",
     company: "Rio de Janeiro",
   },
   {
@@ -540,7 +540,7 @@ export const Dictionaries = [
     img: photo59,
     alt: "Guffaw Tower",
     position: 10,
-    architect: "Suite Arquitetura",
+    architect: "Suite Arquitetos",
     place: "São Paulo",
     company: "São Paulo",
   },
