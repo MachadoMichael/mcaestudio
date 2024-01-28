@@ -21,6 +21,41 @@
   background-color: #121212;
 }
 
+#lazy-image-container{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 80vw;
+  height: 70vh;
+}
+
+@keyframes fade {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+#square{
+  margin-top: 5%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+
+.image{
+max-width: 80vw;
+  max-height: 70vh;
+ object-fit: contain;
+}
+
+#controllers{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .CarouselContainer {
   background-color: #999;
