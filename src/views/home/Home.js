@@ -15,7 +15,7 @@ import { motion } from 'framer-motion'
 
 export const Home = () => {
   const [pause, setPause] = useState(true)
-  const [selectedPhoto, setSelectedPhoto] = useState(62);
+  const [selectedPhoto, setSelectedPhoto] = useState(0);
   let timer;
 
   const changePhoto = (side) => {
