@@ -58,6 +58,12 @@ p{
   color: #fff;
 }
 
+@media(min-width: 1800px){
+  .about-content{
+    width: 52vw;
+  }
+}
+
 @media(max-width: 500px){
 
   .about-image{

@@ -46,6 +46,12 @@ li:hover{
   font-size: 1.1em;
 }
 
+@media(min-width: 1800px){
+  .nav-box-margin{
+    width: 52vw;
+  }
+}
+
 @media(max-width: 1000px){
   .nav-container{
     display: none;

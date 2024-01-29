@@ -15,7 +15,7 @@ import { motion } from 'framer-motion'
 
 export const Home = () => {
   const [pause, setPause] = useState(true)
-  const [selectedPhoto, setSelectedPhoto] = useState(0);
+  const [selectedPhoto, setSelectedPhoto] = useState(62);
   let timer;
 
   const changePhoto = (side) => {
@@ -24,7 +24,7 @@ export const Home = () => {
   }
 
   function handleInterval() {
-    if (pause) {
+    if (pause && selectedPhoto < Dictionaries.length - 1) {
       setPause(false)
       setTimeout(() => setSelectedPhoto(selectedPhoto => selectedPhoto + 1))
     } else {
@@ -34,7 +34,7 @@ export const Home = () => {
   }
 
   function smoothTransition() {
-    if (!pause) timer = setTimeout(() => setSelectedPhoto(selectedPhoto => selectedPhoto + 1), 4000)
+    if (!pause && selectedPhoto < Dictionaries.length - 1) timer = setTimeout(() => setSelectedPhoto(selectedPhoto => selectedPhoto + 1), 4000)
     if (pause) clearTimeout(timer)
   }
 
