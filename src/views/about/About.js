@@ -10,7 +10,7 @@ export const About = () => {
     <section className="about-content">
       <div className="about-image">
         <LazyLoadImage className='about-photo' src={aboutImage} alt="about" />
-        <Info client={"Florense"} company={"Flores da Cunha"} localization={"São Paulo"} />
+        <Info architect={"Florense"} companyPlace={"Flores da Cunha"} localization={"São Paulo"} />
       </div>
       <div className="about-text-box">
         <h1> As imagens podem ser tudo, nunca só registro.</h1>

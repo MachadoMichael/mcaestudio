@@ -57,6 +57,12 @@ max-width: 80vw;
   align-items: center;
 }
 
+.button:hover{
+  cursor: pointer;
+  width: 2.0em;
+  border: 1px solid #fff;
+}
+
 .CarouselContainer {
   background-color: #999;
   display: flex;

@@ -372,7 +372,7 @@ export const Dictionaries = [
     img: photo33,
     alt: "Giggly Mansion",
     position: 3,
-    architect: "Hotel Janeiro + Azul Arquiteura",
+    architect: "Hotel Janeiro + Azul Arquitetura",
     companyPlace: "Rio de Janeiro",
     localization: "",
   },

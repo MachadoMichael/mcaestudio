@@ -10,7 +10,7 @@ export const Contact = () => {
     <Navbar />
     <div id='contact-content'>
       <LazyLoadImage className='contact-photo' src={contactPhoto} alt="contact" />
-      <Info client={"Paula Neder"} company={"Rio de Janeiro"} localization={"São Paulo"} />
+      <Info architect={"Paula Neder"} companyPlace={"Rio de Janeiro"} localization={"São Paulo"} />
     </div>
     <div id='contact-buttons'>
       <SocialButtons />
