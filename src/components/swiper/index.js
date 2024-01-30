@@ -9,8 +9,10 @@ import { Info } from "../photo-info/info";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "swiper/css/effect-fade";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { useState } from "react";
 
 const SwiperCarousel = ({ photos }) => {
+  const [firstImageLoaded, setFirstImageLoaded] = useState(false);
   return (
     <div className="container-swiper">
       <Swiper
@@ -24,7 +26,9 @@ const SwiperCarousel = ({ photos }) => {
         onSwiper={(swiper) => {
           console.log(swiper);
         }}
-        autoplay={{ delay: 4000, pauseOnMouseEnter: true }}
+        autoplay={
+          firstImageLoaded ? { delay: 4000, pauseOnMouseEnter: true } : false
+        }
         speed={1300}
       >
         {photos.map((photo) => (
@@ -36,6 +40,7 @@ const SwiperCarousel = ({ photos }) => {
                   src={photo.img}
                   alt={photo.alt}
                   effect="blur"
+                  onLoad={() => setFirstImageLoaded(true)}
                 />
                 <Info
                   architect={photo.architect}
