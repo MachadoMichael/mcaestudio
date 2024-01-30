@@ -11,17 +11,19 @@ import "swiper/css/effect-fade";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { useEffect, useState } from "react";
 
-const loadImage = (src) => {
-  return new Promise((resolve, reject) => {
-    const img = new Image();
-    img.src = src;
-    img.onload = resolve;
-    img.onerror = reject;
-  });
-};
+
 
 const SwiperCarousel = ({ photos }) => {
   const [isLoaded, setIsLoaded] = useState(false);
+
+  const loadImage = (src) => {
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = resolve;
+      img.onerror = reject;
+    });
+  };
 
   useEffect(() => {
     Promise.all(photos.map((photo) => loadImage(photo.img))).then(() =>
