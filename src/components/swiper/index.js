@@ -20,29 +20,24 @@ const SwiperCarousel = ({ photos }) => {
         spaceBetween={50}
         fadeEffect={{ crossFade: true }}
         slidesPerView={1}
-        onSwiper={(swiper) => {
-          console.log(swiper);
-        }}
         autoplay={{ delay: 4500, pauseOnMouseEnter: true, LazyLoadImage: true }}
       >
         {photos.map((photo, i) => (
-          <div>
-            <SwiperSlide key={i}>
-              <div className="img-box">
-                <LazyLoadImage
-                  id="photo-img"
-                  src={photo.img}
-                  alt={photo.alt}
-                  effect="blur"
-                />
-                <Info
-                  architect={photo.architect}
-                  companyPlace={photo.companyPlace}
-                  localization={photo.localization}
-                />
-              </div>
-            </SwiperSlide>
-          </div>
+          <SwiperSlide key={i}>
+            <div className="img-box">
+              <LazyLoadImage
+                id="photo-img"
+                src={photo.img}
+                alt={photo.alt}
+                effect="blur"
+              />
+              <Info
+                architect={photo.architect}
+                companyPlace={photo.companyPlace}
+                localization={photo.localization}
+              />
+            </div>
+          </SwiperSlide>
         ))}
       </Swiper>
     </div>
