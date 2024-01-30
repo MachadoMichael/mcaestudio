@@ -11,9 +11,9 @@
   height: 90vh;
 }
 
-.photo-img{
+#photo-img{
   max-width: 80vw;
-  height: 85%;
+  height: 70vh;
   object-fit: contain;
 }
 
