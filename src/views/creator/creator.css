@@ -1,0 +1,17 @@
+#creator-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#creator-form {}
+
+#upload-preview {
+  display: flex;
+  flex-wrap: wrap;
+  width: 86vw;
+  padding: 1%;
+  border-radius: 4px;
+  background-color: #fff;
+}

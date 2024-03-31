@@ -1,4 +1,3 @@
 # to do
 
-colocar fotos no modo lazy, carregando sobre demanda
-
+[] make the creator preview list, a list! not a image preview.

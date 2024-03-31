@@ -1,10 +1,8 @@
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import Alert from '@mui/material/Alert';
 import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import { Button, Dialog, DialogActions } from '@mui/material';
 import IconButton from '@mui/material/IconButton';
-import CloseIcon from '@mui/icons-material/Close';
 
 export const RequestModal = ({ open, message, success, handleCloseModal }) => {
   const close = () => {
