@@ -1,4 +1,4 @@
-#contact-container{
+#contact-container {
   background-color: #121212;
   display: flex;
   flex-direction: column;
@@ -6,18 +6,25 @@
   width: 100vw;
   height: 100vh;
   justify-content: center;
+  margin-top: 2%;
 }
 
-.contact-content{
-width: 80vw;
-height: 100vh;
-background-color: red;
-display: flex;
-justify-content: center;
-
+#contact-content {
+  padding-top: 2%;
+  width: 80vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.contact-photo{
+.contact-photo {
   object-fit: contain;
   height: 60vh;
+}
+
+#contact-buttons {
+  width: 80vw;
+  display: flex;
+  justify-content: flex-start;
 }

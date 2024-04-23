@@ -2,7 +2,7 @@ import './style.css'
 import Logo from '../../mcalogo.svg'
 import { useNavigate } from 'react-router-dom'
 export const Navbar = () => {
-  const pageList = ['sobre', 'contato']
+  const pageList = ['conceito', 'sobre', 'contato']
   const navigate = useNavigate()
 
   return <div className="nav-container">

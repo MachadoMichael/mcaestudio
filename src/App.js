@@ -6,6 +6,7 @@ import { Contact } from './views/contact/Contact';
 import { Admin } from './views/admin/Admin';
 import { Creator } from './views/creator/Creator';
 import { Preview } from './views/preview/Preview';
+import { Concept } from './views/concept/Concept';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/sobre' element={<About />} />
+        <Route path='/conceito' element={<Concept />} />
         <Route path='/contato' element={<Contact />} />
         <Route path='/admin' element={<Admin />} />
         <Route path='/creator' element={<Creator />} />

@@ -1,0 +1,15 @@
+#social-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: start;
+}
+
+.icon-text {
+  margin-left: 3%;
+  font-size: 18px;
+  width: 25vw;
+  display: flex;
+  justify-content: flex-start;
+}
