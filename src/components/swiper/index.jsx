@@ -23,7 +23,6 @@ const SwiperCarousel = ({ photos }) => {
           delay: 4500,
           pauseOnMouseEnter: true,
           LazyLoadImage: true,
-          stopOnLastSlide: true,
         }}
       >
         {photos.map((photo, i) => (

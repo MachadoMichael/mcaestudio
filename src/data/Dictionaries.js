@@ -62,6 +62,7 @@ import photo63 from '../photos/photo63.webp'
 import photo64 from '../photos/photo64.webp'
 import photo99 from '../photos/photo99.webp'
 import photo65 from '../photos/photo65.webp'
+import photo66 from '../photos/photoX.webp'
 
 export const Dictionaries = [
   {
@@ -577,6 +578,14 @@ export const Dictionaries = [
     companyPlace: "São Paulo",
     localization: "São Paulo",
   },
+  {
+    img: photo66,
+    alt: "Foto lateral de mesa de escritorio com cadeira em madera e obra de arte com formas geometricas ao fundo.",
+    position: 10,
+    architect: "Paula Neder",
+    companyPlace: "Rio de Janeiro",
+    localization: "São Paulo",
+  }
 
 ];
 
