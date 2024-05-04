@@ -6,6 +6,7 @@
   width: 100vw;
   height: 8vh;
   background-color: #000;
+  z-index: 2;
 }
 
 .logo-box {
@@ -44,6 +45,15 @@ li:hover {
   cursor: pointer;
   text-decoration: overline;
   font-size: 1.1em;
+}
+
+#navbar-menu-button {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
 @media(min-width: 1800px) {

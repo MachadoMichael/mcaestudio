@@ -1,0 +1,30 @@
+#menu-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#menu-close-button {
+  width: 100%;
+  height: 10%;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+#menu-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#menu-li {
+  color: #fff;
+  font-size: 40px;
+}

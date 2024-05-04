@@ -2,13 +2,11 @@ import { Navbar } from '../../components/navbar';
 import './Home.css'
 import { Dictionaries } from '../../data/Dictionaries';
 import { useEffect, useState } from 'react';
-
 import 'react-lazy-load-image-component/src/effects/blur.css'
 import SwiperCarousel from '../../components/swiper';
 
 export const Home = () => {
   const [cleanCookies, setCleanCookies] = useState(false)
-
   useEffect(() => {
     if (!document.__defineGetter__) {
       Object.defineProperty(document, 'cookie', {
@@ -22,6 +20,7 @@ export const Home = () => {
 
     setCleanCookies(true)
   }, [])
+
   if (cleanCookies) {
     return (
       <div className='Home'>
@@ -31,7 +30,6 @@ export const Home = () => {
         </div>
       </div>
     )
-
-
   }
+
 }

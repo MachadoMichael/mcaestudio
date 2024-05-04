@@ -23,6 +23,10 @@
   height: 80vh;
 }
 
+#about-image-text {
+  color: #FFF;
+}
+
 .about-photo {
   height: 80%;
   object-fit: contain;

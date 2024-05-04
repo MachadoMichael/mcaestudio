@@ -7,6 +7,7 @@ import { Admin } from './views/admin/Admin';
 import { Creator } from './views/creator/Creator';
 import { Preview } from './views/preview/Preview';
 import { Concept } from './views/concept/Concept';
+import { Menu } from './views/mobile-menu/Menu';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/admin' element={<Admin />} />
         <Route path='/creator' element={<Creator />} />
         <Route path='/preview' element={<Preview />} />
+        <Route path='/mobile-menu' element={<Menu />} />
       </Routes>
     </Router>
   );
