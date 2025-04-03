@@ -10,7 +10,7 @@ export const SocialButtons = () => {
     <IconButton href="https://wa.me/21985901516" sx={{ color: '#fff', '&:hover': { fontWeight: "bolder" } }}>
       <WhatsAppIcon sx={{ fontSize: 32 }} />
       <div className='icon-text'>
-        (21) 98591-1516
+        (21) 98590-1516
       </div>
     </IconButton>
 
